@@ -247,6 +247,6 @@ fun ShareContactScreen(
 fun DefaultPreview() {
     NFCTheme {
        val nfcAdapter = NfcAdapter.getDefaultAdapter(LocalContext.current)
-        NFCShareApp(nfcAdapter, null, null, false, {}, {})
+        NFCShareApp(null, null, null, false, {}, {})
     }
 }
